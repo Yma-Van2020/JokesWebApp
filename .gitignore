@@ -1,0 +1,20 @@
+# .NET
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# User secrets
+*.user
+*.suo
+
+# Database
+app.db
+
+# Certificates
+*.pfx
+
+# OS
+.DS_Store
+Thumbs.db
