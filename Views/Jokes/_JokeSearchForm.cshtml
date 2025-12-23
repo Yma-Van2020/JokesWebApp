@@ -1,0 +1,15 @@
+@model JokesWebApp.Models.Joke
+
+<form asp-action="ShowSearchResults" method="get">
+
+
+
+    <div class="form-group">
+        <label for="searchPhrase" class="control-label mt-3">Search by phrase</label>
+        <input name="searchPhrase" class="form-control mt-3" placeholder="Enter search phrase..." />
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Search</button>
+</form>
+
+<div class="mt-4">
+    <a asp-action="Index" class="btn btn-secondary">Back to Jokes List</a>
